@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Carrusel</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Estilo para botones del carrusel -->
+    <style>
+      .carousel-control-prev-icon,
+      .carousel-control-next-icon {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+        padding: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Mi prueba con Bootstrap</h1>
+
+    <div id="carouselId_Prueba" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselId_Prueba" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+        <li data-bs-target="#carouselId_Prueba" data-bs-slide-to="1" aria-label="Second slide"></li>
+        <li data-bs-target="#carouselId_Prueba" data-bs-slide-to="2" aria-label="Third slide"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img src="holder.js/900x400?text=Primera imagen" class="w-100 d-block" alt="Primera" />
+        </div>
+        <div class="carousel-item">
+          <img src="holder.js/900x400?text=Segunda imagen" class="w-100 d-block" alt="Segunda" />
+        </div>
+        <div class="carousel-item">
+          <img src="holder.js/900x400?text=Tercera imagen" class="w-100 d-block" alt="Tercera" />
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselId_Prueba" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselId_Prueba" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+
+    <!-- Bootstrap JS Bundle (incluye Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Holder.js para las imágenes simuladas -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.9/holder.min.js"></script>
+  </body>
+</html>
