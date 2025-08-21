@@ -1,0 +1,36 @@
+Aquí tienes el paso a paso completo desde que haces un cambio en un archivo, hasta sincronizar y combinar ramas en Visual Studio Code, incluyendo el commit:
+
+1. Haz un cambio en un archivo
+Por ejemplo, editas ramamain.txt.
+
+2. Guarda el archivo
+Presiona Ctrl + S para guardar los cambios.
+
+3. Haz commit de tu cambio
+Ve a la pestaña de Control de código fuente (icono de ramita).
+Verás el archivo modificado en la lista.
+Escribe un mensaje de commit (por ejemplo: Agregado texto en ramamain.txt).
+Haz clic en el check (✔) para confirmar el commit.
+
+4. Sincroniza tus cambios con GitHub
+Haz clic en los tres puntitos (...).
+Selecciona "Sincronizar cambios" o "Sincronizar" para subir tu commit a GitHub.
+
+5. Cámbiate a la otra rama
+Haz clic en el nombre de la rama actual (abajo a la izquierda).
+Selecciona la rama donde quieres combinar los cambios (por ejemplo, ramasecundaria).
+
+6. Combina los cambios de la rama original
+Ve a la pestaña de Control de código fuente.
+Haz clic en los tres puntitos (...).
+Selecciona "Combinar rama...".
+Elige la rama de la que quieres traer los cambios (por ejemplo, main).
+
+7. Resuelve conflictos si aparecen
+Haz clic en los archivos en conflicto y elige qué cambios conservar.
+Guarda los archivos y haz commit para finalizar la fusión.
+
+8. Sincroniza la rama combinada
+Haz clic en "Sincronizar cambios" para subir la rama combinada a GitHub.
+
+¡Listo! Así cubres todo el flujo: editar → guardar → commit → sincronizar → cambiar de rama → combinar → resolver conflictos → sincronizar.
